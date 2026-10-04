@@ -600,7 +600,7 @@ p {
 }
 
 .results-list {
-  max-width: 900px;
+  max-width: 760px;
   margin: 0 auto;
   display: grid;
   gap: 14px;
@@ -608,10 +608,10 @@ p {
 
 .result-card {
   display: grid;
-  grid-template-columns: 1fr minmax(190px, 285px);
+  grid-template-columns: 1fr minmax(160px, 210px);
   align-items: center;
-  gap: 36px;
-  padding: 24px 30px;
+  gap: 24px;
+  padding: 18px 22px;
   border: 1px solid #d9d9d2;
   background: #eeede6;
 }
@@ -639,7 +639,7 @@ p {
 
 .result-date {
   display: block;
-  margin-top: 17px;
+  margin-top: 12px;
 }
 
 .result-teams {
@@ -649,7 +649,7 @@ p {
   gap: 13px;
   margin: 10px 0 19px;
   font-family: var(--font-display);
-  font-size: clamp(24px, 3vw, 38px);
+  font-size: clamp(21px, 2.6vw, 30px);
   font-weight: 800;
 }
 
@@ -663,7 +663,7 @@ p {
   display: flex;
   align-items: center;
   gap: 9px;
-  margin: 0 0 20px;
+  margin: 0 0 14px;
   color: #46505b;
   font-size: 11px;
 }
@@ -1073,13 +1073,13 @@ p {
   }
 
   .result-poster-link {
-    width: min(100%, 320px);
+    width: min(100%, 220px);
     margin: 0 auto;
   }
 
   .result-teams {
     gap: 9px;
-    font-size: clamp(25px, 8vw, 35px);
+    font-size: clamp(21px, 6.5vw, 27px);
   }
 
   .results-intro {

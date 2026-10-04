@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#101b2b">
+    <meta name="description" content="Follow Northlands FC's pre-season fixtures, results and photos.">
+    <title>Pre-season Fixtures &amp; Photos — Northlands FC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="index.html#home" aria-label="Northlands FC home">
+          <img class="brand-logo" src="assets/northlands-logo.jpeg" alt="">
+          <span class="brand-name">NORTHLANDS <strong>FC</strong></span>
+        </a>
+
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
+          <span class="menu-toggle-label">Menu</span>
+          <span class="menu-icon" aria-hidden="true"><i></i><i></i></span>
+        </button>
+
+        <nav class="primary-navigation" id="primary-navigation" aria-label="Main navigation">
+          <a href="index.html#club">The club</a>
+          <a href="index.html#leadership">Leadership</a>
+          <a href="#fixtures">Fixtures</a>
+          <a href="#photos">Photos</a>
+          <a class="nav-cta" href="index.html#community">Join the team <span aria-hidden="true">↗</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="preseason-hero">
+        <div class="preseason-hero-inner">
+          <div class="section-label section-label-light"><span>03</span> THE PRE-SEASON CAMPAIGN</div>
+          <h1>PRE-SEASON<br><span>FIXTURES &amp; PHOTOS.</span></h1>
+          <p>Follow every game, result and moment from our pre-season campaign.</p>
+          <a class="preseason-back-link" href="index.html#fixtures">← Back to Northlands FC</a>
+        </div>
+      </section>
+
+      <section class="preseason-content section-pad" id="fixtures">
+        <div class="section-heading">
+          <div>
+            <div class="section-label"><span>01</span> THE SCHEDULE</div>
+            <h2>FIXTURES &amp; <span>RESULTS.</span></h2>
+          </div>
+          <p>Pre-season games, from the next fixture to the final whistle.</p>
+        </div>
+
+        <div class="preseason-upcoming">
+          <span class="preseason-upcoming-label">UPCOMING FIXTURES</span>
+          <p>New pre-season fixtures will be listed here as soon as they are confirmed.</p>
+        </div>
+
+        <h3 class="preseason-subheading">COMPLETED GAMES</h3>
+        <div class="results-list">
+          <article class="result-card">
+            <div class="result-details">
+              <div class="result-card-heading">
+                <span class="result-round">GAME 1 · PRE-SEASON</span>
+                <span class="result-status">FULL TIME</span>
+              </div>
+              <time class="result-date" datetime="2026-10-04">SUNDAY · 4 OCTOBER 2026</time>
+              <div class="result-teams">
+                <span>NORTHLANDS FC</span>
+                <span class="result-score" aria-label="Northlands FC 0, JOACM FC 3">0–3</span>
+                <span>JOACM FC</span>
+              </div>
+              <p class="result-event"><span class="result-event-label">YELLOW CARD</span> Captain Kamwana was booked.</p>
+              <div class="result-venue"><span>VENUE</span><strong>Kizito, Mwihoko</strong></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="preseason-photos section-pad" id="photos">
+        <div class="section-heading">
+          <div>
+            <div class="section-label"><span>02</span> MOMENTS FROM THE CAMPAIGN</div>
+            <h2>PRE-SEASON <span>PHOTOS.</span></h2>
+          </div>
+          <p>Matchday artwork and photos from our pre-season games.</p>
+        </div>
+        <div class="preseason-gallery">
+          <figure>
+            <a href="assets/matchday-2026-10-04.jpeg" target="_blank" rel="noreferrer" aria-label="Open the Northlands FC vs JOACM FC matchday poster">
+              <img src="assets/matchday-2026-10-04.jpeg" alt="Matchday poster for Northlands FC vs JOACM FC on Sunday 4 October 2026">
+            </a>
+            <figcaption>GAME 1 · NORTHLANDS FC VS JOACM FC · MATCHDAY POSTER</figcaption>
+          </figure>
+          <p class="preseason-gallery-note">Match photos will be added here as they become available.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="index.html#home">
+        <img class="brand-logo" src="assets/northlands-logo.jpeg" alt="">
+        <span class="brand-name">NORTHLANDS <strong>FC</strong></span>
+      </a>
+      <span class="footer-note">LOUD. PROUD. LOYAL. THIS IS NORTHLANDS.</span>
+      <span class="copyright">© <span id="year"></span> NORTHLANDS FC</span>
+    </footer>
+  </body>
+</html>

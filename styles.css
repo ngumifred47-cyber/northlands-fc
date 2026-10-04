@@ -610,6 +610,8 @@ p {
 }
 
 .fixture-card {
+  max-width: 900px;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr minmax(190px, 285px);
   align-items: center;

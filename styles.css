@@ -705,7 +705,7 @@ p {
 
 .result-poster-link {
   display: block;
-  width: min(100%, 150px);
+  width: min(100%, 220px);
   margin: 0 auto;
   line-height: 0;
 }
